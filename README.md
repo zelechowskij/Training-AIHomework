@@ -14,6 +14,7 @@ Accepts GET requests, returns a hardcoded dictionary
 ## Requirements
 - Docker
 - Git
+- Python
 
 ## Steps to run these services in a Docker enviroinment
 1. Clone the repository <br />
