@@ -28,8 +28,8 @@ From here you can open another terminal in ```Training-AIHomework``` directory
 - Test services using pytest <br />
 ```pytest```
 - Test services using curl command <br />
- ```curl -X POST http://localhost:8080/api/v1/ping -H "Content-Type:application/json" -d '{"url":"http://ReceiverService:8080/api/v1/info"}'```
- NOTE 
+ ```curl -X POST http://localhost:8080/api/v1/ping -H "Content-Type:application/json" -d '{"url":"http://ReceiverService:8080/api/v1/info"}'```<br />
+ NOTE <br />
  if curl is not working make sure to copy it from here instead of task pdf :)
 
 Also you can check health of PingerService with ```docker ps``` and look into ```status``` column
