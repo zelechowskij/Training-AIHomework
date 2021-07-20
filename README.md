@@ -2,12 +2,12 @@
 
 We have two services:
 ## PingService
-1. /api/v1/ping
+1. ```/api/v1/ping```
 Accepts POST requests containing a url key. It then sends a GET request to that endpoint, and returns recieved payload
-2. /health
+2. ```/health```
 Accepts GET requests, and returns simple health check
 ## RecieverService
-1. /api/v1/info
+1. ```/api/v1/info```
 Accepts GET requests, returns a hardcoded dictionary 
 ```{"Receiver": "Cisco is the best!"}```
 
